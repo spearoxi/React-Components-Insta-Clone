@@ -34,16 +34,7 @@ const App = () => {
         - if the `id` of the post matches `postId`, return a new post object with the desired values (use the spread operator).
         - otherwise just return the post object unchanged.
      */
-    const newPosts = posts.map(Posts => {
-      if (Posts.id === postId){
-        return {...Posts, }
-      }
-      else {
-        return Posts
-      }
-    })
-    setPosts(newPosts)
-  };
+  }
 
   return (
     <div className='App'>
